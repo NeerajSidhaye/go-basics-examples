@@ -1,3 +1,3 @@
-module github.com/go/hello
+module github.com/BeTheCodeWithYou/go-basics-examples/helloworld
 
 go 1.14
