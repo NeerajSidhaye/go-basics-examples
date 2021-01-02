@@ -2,11 +2,12 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
-  fmt.Println("Hello world from Go");
+	fmt.Println("Hello world from Go")
 
 }
 
-
-
+func addition(a int, b int) int {
+	return a + b
+}
