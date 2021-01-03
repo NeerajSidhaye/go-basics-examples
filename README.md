@@ -1,7 +1,7 @@
 # go-basics-examples
 This is a "Go" hello world example.
 
-###Project has basic examples of
+#### Project has basic examples of
 
 math functions
 
