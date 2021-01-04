@@ -7,7 +7,10 @@ import (
 	 
 )
 
-//ScanFloatValueAndTruncateToInteger : scanning user input in float and truncting float to int
+//public function starts with Uppercase and should have comment on top of it.
+// comment should start with function name itself, followed by colon and then description.
+
+//ScanFloatValueAndTruncateToInteger : scanning user input in float and truncting float to int.
 func ScanFloatValueAndTruncateToInteger() {  
 	
 	var myFloat float64
@@ -16,12 +19,13 @@ func ScanFloatValueAndTruncateToInteger() {
 	
 		fmt.Println("Enter float number")
 	
-		fmt.Scan(&myFloat)
+		fmt.Scan(&myFloat)  // will promt to enter input on the command line.
 		
 		fmt.Printf("user input float value-> %f\n", myFloat)
 		
 		myFloat = math.Trunc(myFloat)
-		fmt.Printf("Int value after match.Trunc-> %.f\n ", myFloat)  // %.f - here the dot(.) represent that we want no value after decimal.
+		fmt.Printf("Int value after match.Trunc-> %.f\n ", myFloat)  
+		// in fmt.Printf, %.f -  the dot(.) represent that we want no value after decimal.
 	
 	}
 	
