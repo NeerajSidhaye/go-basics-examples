@@ -1,32 +1,29 @@
 package mymath
 
-import ( 
-	
+import (
 	"fmt"
-    "math"
-	 
+	"math"
 )
+
+/*
+	Assignment:
+	Write a program which prompts the user to enter a floating point number and
+	prints the integer which is a truncated version of the floating point number that was entered.
+
+*/
 
 //public function starts with Uppercase and should have comment on top of it.
 // comment should start with function name itself, followed by colon and then description.
 
 //ScanFloatValueAndTruncateToInteger : scanning user input in float and truncting float to int.
-func ScanFloatValueAndTruncateToInteger() {  
-	
+func ScanFloatValueAndTruncateToInteger() {
+
 	var myFloat float64
-		
-	for i:=0; i<2; i++ {
-	
-		fmt.Println("Enter float number")
-	
-		fmt.Scan(&myFloat)  // will promt to enter input on the command line.
-		
-		fmt.Printf("user input float value-> %f\n", myFloat)
-		
-		myFloat = math.Trunc(myFloat)
-		fmt.Printf("Int value after match.Trunc-> %.f\n ", myFloat)  
-		// in fmt.Printf, %.f -  the dot(.) represent that we want no value after decimal.
-	
-	}
-	
-	}
+
+	fmt.Println("Enter float number")
+
+	fmt.Scan(&myFloat) // will prompt to enter input on the command line.
+
+	myInt := math.Trunc(myFloat)
+	fmt.Println("Int value after match.Trunc-> ", myInt)
+}
