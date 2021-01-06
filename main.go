@@ -6,6 +6,8 @@ import (
 
 	//"github.com/BeTheCodeWithYou/go-basics-examples/helloworld/mystrings"
 
+	//"github.com/BeTheCodeWithYou/go-basics-examples/helloworld/myslice"
+
 	"fmt"
 
 )
@@ -16,5 +18,7 @@ func main() {
 
 	mymath.ScanFloatValueAndTruncateToInteger()
 
-    //mystrings.FindSpecificCharInString()
+	//mystrings.FindSpecificCharInString()
+	
+	//myslice.SortSliceOfIntAndPrint()
 }
