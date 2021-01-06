@@ -1,13 +1,16 @@
 # go-basics-examples
 This is a "Go" basic programming examples.
 
-Go lang version:- go version go1.14.3 windows/amd64
-IDE - VS Code:- 1.52.1
+###  go version go1.14.3 windows/amd64
 
-#### Project solves below assignments
+### VS Code version 1.52.1
+
+
+## Project solves below assignments
 
 1. Write a program which prompts the user to enter a floating point number and
 	prints the integer which is a truncated version of the floating point number that was entered.
+
    #### Demo
    ![findcharsinSttruncFloatToIntring](internal/img/truncFloatToInt.gif)
 
@@ -20,8 +23,7 @@ IDE - VS Code:- 1.52.1
    ## Demo
     ![findcharsinString](internal/img/findcharsinString.gif)
    
-   findcharsinString
-
+   
 3. Write a program which prompts the user to enter integers and stores the integers in a sorted slice.
    The program should be written as a loop. Before entering the loop, the program should create an empty integer slice of size (length) 3.
    During each pass through the loop, the program prompts the user to enter an integer to be added to the slice.
