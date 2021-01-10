@@ -12,7 +12,7 @@ This is a "Go" basic programming examples.
 	prints the integer which is a truncated version of the floating point number that was entered.
 
    #### Demo
-   ![findcharsinSttruncFloatToIntring](internal/img/truncFloatToInt.gif)
+   ![findcharsinSttruncFloatToIntring](internal/readme/img/truncFloatToInt.gif)
 
 2. Write a program which prompts the user to enter a string. 
    The program searches through the entered string for the characters ‘i’, ‘a’, and ‘n’. 
@@ -21,7 +21,7 @@ This is a "Go" basic programming examples.
    The program should not be case-sensitive, so it does not matter if the characters are upper-case or lower-case.
 
    ## Demo
-    ![findcharsinString](internal/img/findcharsinString.gif)
+    ![findcharsinString](internal/reame/img/findcharsinString.gif)
    
    
 3. Write a program which prompts the user to enter integers and stores the integers in a sorted slice.
@@ -32,7 +32,7 @@ This is a "Go" basic programming examples.
    The program should only quit (exiting the loop) when the user enters the character ‘X’ instead of an integer.
 
    ## Demo
-   ![SliceSorting](internal/img/slicesorting.gif)
+   ![SliceSorting](internal/readme/img/slicesorting.gif)
 
 
 ### running the app

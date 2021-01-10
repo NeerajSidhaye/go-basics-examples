@@ -38,7 +38,7 @@ func SortSliceOfIntAndPrint() {
 		userInputStr = inputScanner.Text()
 		userInputInt, err := strconv.Atoi(userInputStr) // converting string to int
 
-		if strings.EqualFold(userInputStr, "X") {
+		if strings.EqualFold(userInputStr, "X") { // compares with case sensitivity
 			fmt.Println("Input is X - existing the program.")
 			break
 		} else if err != nil { // err is taking care of any other string than X and not a valid number.
@@ -47,15 +47,13 @@ func SortSliceOfIntAndPrint() {
 		} else {
 
 			intSlice[index] = userInputInt // assigning user input to slice
-		
 			index++
-
-			if index == len(intSlice) {
-				intSlice = append(intSlice, index) // increasing slice lenght when user input reach to existing lenght of slice.
+			fmt.Println("index and len of slice->", index, len(intSlice))
+			if len(intSlice) == index {
+				intSlice = append(intSlice, index) // increasing slice lenght & capacity when user input reach to existing cap of slice.
+				fmt.Println("slice appedned ->", intSlice, len(intSlice), cap(intSlice))
 			}
-
 			sort.Ints(intSlice) // sorting the slice
-
 			fmt.Println("sorted slice is->", intSlice)
 		}
 
