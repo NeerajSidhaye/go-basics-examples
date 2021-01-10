@@ -1,4 +1,4 @@
-# go-basics-examples
+# go-basic-examples
 This is a "Go" basic programming examples.
 
 ###  go version go1.14.3 windows/amd64
