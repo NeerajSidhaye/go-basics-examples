@@ -2,7 +2,6 @@ package mymath
 
 import (
 	"fmt"
-	"math"
 )
 
 /*
@@ -22,8 +21,7 @@ func ScanFloatValueAndTruncateToInteger() {
 
 	fmt.Println("Enter float number")
 
-	fmt.Scan(&myFloat) // will prompt to enter input on the command line.
+	fmt.Scan(&myFloat) // reading input from command line and assigning to float variable myFloat
 
-	myInt := math.Trunc(myFloat)
-	fmt.Println("Int value after match.Trunc-> ", myInt)
+	fmt.Println("Int value -> ", int64(myFloat))  // converting float to int
 }

@@ -6,9 +6,9 @@ import (
 	//"internal/pkg/utils/myslice"
 	//"internal/pkg/utils/mystrings"
 
-	//"github.com/BeTheCodeWithYou/go-basics-examples/helloworld/internal/pkg/utils/mymath"
+	"github.com/BeTheCodeWithYou/go-basics-examples/helloworld/internal/pkg/utils/mymath"
     //"github.com/BeTheCodeWithYou/go-basics-examples/helloworld/internal/pkg/utils/mymap"
-    "github.com/BeTheCodeWithYou/go-basics-examples/helloworld/internal/pkg/utils/myfiles"
+    //"github.com/BeTheCodeWithYou/go-basics-examples/helloworld/internal/pkg/utils/myfiles"
 
 	"fmt"
 )
@@ -17,7 +17,7 @@ func main() {
 
 	fmt.Println("Hello, world!")
 
-	//mymath.ScanFloatValueAndTruncateToInteger()
+	mymath.ScanFloatValueAndTruncateToInteger()
 
 	//mystrings.FindSpecificCharInString()
 
@@ -25,5 +25,5 @@ func main() {
 
 	//mymap.ConvertMapToJSON()
 
-	myfiles.FileReaderAndPrintFileContentAsStructs()
+	//myfiles.FileReaderAndPrintFileContentAsStructs()
 }

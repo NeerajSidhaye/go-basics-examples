@@ -14,7 +14,7 @@ This is a "Go" basic programming examples which includes usage of
 14. functions
 15. struct
 16. slice of structs
-17. usage of imports like "strings, sort, strconv, math, bufio, os, encoding/json"
+17. usage of imports like "strings, sort, strconv, bufio, os, encoding/json"
 18. import alias
 19. JSON
 20. reading command line inputs
@@ -35,7 +35,7 @@ This is a "Go" basic programming examples which includes usage of
    [trunc.go](https://github.com/BeTheCodeWithYou/go-basics-examples/blob/feature/go-basic-helloworld/internal/pkg/utils/mymath/trunc.go)
 
    #### Demo
-   ![findcharsinSttruncFloatToIntring](internal/readme/img/truncFloatToInt.gif)
+   ![findcharsinSttruncFloatToIntring](internal/readme/img/mathutils.gif)
 
 ## Assignment 2
    Write a program which prompts the user to enter a string. 
