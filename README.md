@@ -1,5 +1,25 @@
 # go-basic-examples
-This is a "Go" basic programming examples.
+This is a "Go" basic programming examples which includes usage of 
+
+
+1. go project structure as per [go-lang-standard/project-layout](https://github.com/golang-standards/project-layout)
+
+0. go variables
+
+9.  arrays
+10. slice
+11. map
+12. for loops
+13. range
+14. functions
+15. struct
+16. slice of structs
+17. usage of imports like "strings, sort, strconv, math, bufio, os, encoding/json"
+18. import alias
+19. JSON
+20. reading command line inputs
+
+
 
 ###  go version go1.14.3 windows/amd64
 
@@ -52,6 +72,9 @@ Write a program which prompts the user to enter integers and stores the integers
 
    [maputils.go](https://github.com/BeTheCodeWithYou/go-basics-examples/blob/feature/go-basic-helloworld/internal/pkg/utils/mymap/maputils.go)
 
+   ## Demo
+   ![mapToJson](internal/readme/img/mymaputils.gif)
+
    ## Assignment 5
    
    Write a program which reads information from a file and represents it in a slice of structs.
@@ -70,6 +93,10 @@ After reading all lines from the file, your program should iterate through your 
 print the first and last names found in each struct.
 
 [fileutils.go](https://github.com/BeTheCodeWithYou/go-basics-examples/blob/feature/go-basic-helloworld/internal/pkg/utils/myfiles/fileutils.go)
+
+### Demo
+![FileUtils](internal/readme/img/myfileutils.gif)
+
 
 ### running the app
 go run main.go

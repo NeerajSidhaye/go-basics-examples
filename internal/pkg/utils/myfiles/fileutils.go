@@ -3,9 +3,6 @@ package myfiles
 import (
 	"bufio"
 	f "fmt"
-	//"strconv"
-
-	// "io/ioutil"
 	"os"
 	"strings"
 )
