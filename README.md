@@ -5,7 +5,6 @@ This is a "Go" basic programming examples which includes usage of
 1. go project structure as per [go-lang-standard/project-layout](https://github.com/golang-standards/project-layout)
 
 0. go variables
-
 9.  arrays
 10. slice
 11. map
@@ -34,8 +33,12 @@ This is a "Go" basic programming examples which includes usage of
 
    [trunc.go](https://github.com/BeTheCodeWithYou/go-basics-examples/blob/feature/go-basic-helloworld/internal/pkg/utils/mymath/trunc.go)
 
-   #### Demo
+   <details><summary>Demo - Assignment 1</summary>
+
    ![findcharsinSttruncFloatToIntring](internal/readme/img/mathutils.gif)
+
+   </details>
+
 
 ## Assignment 2
    Write a program which prompts the user to enter a string. 
@@ -46,8 +49,11 @@ This is a "Go" basic programming examples which includes usage of
 
    [stringutils.go](https://github.com/BeTheCodeWithYou/go-basics-examples/blob/feature/go-basic-helloworld/internal/pkg/utils/mystrings/stringutil.go)
 
-   ## Demo
+   <details><summary>Demo - Assignment 2</summary>
+
    ![findcharsinString](internal/readme/img/findcharsinString.gif)
+
+   </details>
    
    
 ## Assignment 3
@@ -60,9 +66,11 @@ Write a program which prompts the user to enter integers and stores the integers
 
    [sliceutils.go](https://github.com/BeTheCodeWithYou/go-basics-examples/blob/feature/go-basic-helloworld/internal/pkg/utils/myslice/sliceutils.go)
 
-   ## Demo
+   <details><summary>Demo - Assignment 3</summary>
+
    ![SliceSorting](internal/readme/img/slicesorting.gif)
 
+   </details>
 
    ## Assignment 4
 
@@ -72,8 +80,11 @@ Write a program which prompts the user to enter integers and stores the integers
 
    [maputils.go](https://github.com/BeTheCodeWithYou/go-basics-examples/blob/feature/go-basic-helloworld/internal/pkg/utils/mymap/maputils.go)
 
-   ## Demo
+   <details><summary>Demo - Assignment 4</summary>
+
    ![mapToJson](internal/readme/img/mymaputils.gif)
+
+   </details>
 
    ## Assignment 5
    
@@ -94,9 +105,11 @@ print the first and last names found in each struct.
 
 [fileutils.go](https://github.com/BeTheCodeWithYou/go-basics-examples/blob/feature/go-basic-helloworld/internal/pkg/utils/myfiles/fileutils.go)
 
-### Demo
+<details><summary>Demo - Assignment 5</summary>
+
 ![FileUtils](internal/readme/img/myfileutils.gif)
 
+</details>
 
 ### running the app
 go run main.go
